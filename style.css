@@ -1,0 +1,22 @@
+.photos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 
+}
+
+h2{
+	border-bottom: 2px solid black;
+	width: 400px;
+	text-align: center;
+	border-right: 2px solid black;
+}
+img{
+	width: 450px;
+	 height: 300px;
+	 margin: 10px;
+	 transition:all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
